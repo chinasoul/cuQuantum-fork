@@ -189,7 +189,7 @@ backends = {
         'config': {
             'nshots': 1024,
             'nfused': 4,
-            'ngpus': 1,
+            'ngpus': 4,
             'ncputhreads': multiprocessing.cpu_count(),
             'precision':'single',
         },
@@ -239,7 +239,7 @@ backends = {
         'config': {
             'nshots': 1024,
             'nfused': 4,
-            'ngpus': 1,
+            'ngpus': 4,
             'ncputhreads': 1,
             'precision':'single',
         },
